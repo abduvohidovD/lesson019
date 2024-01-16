@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: #eee;
+    display: flex;
+    gap: 37px;
+    align-items: center;
+    position: fixed;
+    padding: 0 4%;
+}
+.navbar h1{
+    color: orange;
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: -6px;
+}
+.navbar p:hover{
+    color: orange;
+    cursor: pointer;
+}
+.navbar input{
+    width: 180px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 1%;
+}
+.navbar input:hover{
+    cursor: pointer;
+}
+.navbar select{
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    padding: 0 5%;
+}
+.navbar select:hover{
+    cursor: pointer;
+}
+.back__big__boxs{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.big__box1{
+    width: 70%;
+    height: 100%;
+    background: url("./images/konkurs.jpg")
+    no-repeat center/cover;
+}
+.big__box2{
+    width: 30%;
+    height: 100%;
+    background: black;
+}
+.big__box2 h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 200px;
+    padding: 0 4%;
+}
+.big__box2 button{
+    width: 100px;
+    height: 50px;
+    background: rgb(255, 119, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 4%;
+    transition: 1s;
+}
+.big__box2 button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.back__boxss{
+    width: 100%;
+    height: 850px;
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.small__boxss{
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.small__boxss:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px dodgerblue;
+}
+.small__boxss img{
+    width: 100%;
+    height: 80%;
+    border-radius: 8px 8px 0 0;
+}
+.black{
+    width: 100%;
+    height: 20%;
+    border-radius: 0 0 8px 8px;
+    background: black;
+    margin-top: -4px;
+    transition-duration: 2s;
+}
+.black:hover{
+    background: rgb(69, 68, 68);
+}
+.black h3{
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.big__mains{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.small__mains1{
+    background: #eee;
+}
+.small__mains1,
+.small__mains2{
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+}
+.small__mains1 h1{
+    padding: 20px 7%;
+    font-size: 40px;
+}
+.small__mains1 p{
+    padding: 20px 7%;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(255, 119, 0);
+    color: white;
+    margin: 20px 7%;
+    transition: 2s;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.small__mains2{
+    background: url("./images/onas.jpg") no-repeat center/cover;
+}
+.finish{
+    width: 100%;
+    height: 400px;
+    background: black;
+    margin-top: 100px;
+    display: flex;
+    gap: 15px;
+}
+.darkblack1{
+    width: 330px;
+    height: 100%;
+}
+.darkblack1 h1{
+    color: orange;
+    font-family: cursive;
+    padding: 10%;
+    transform: translate(0px, 40px);
+}
+.darkblack1 h4{
+    color: white;
+    transform: translate(130px, -21px);
+}
+.darkblack1 p{
+    color: white;
+    padding:  15px 10%;
+}
+.darkblack2{
+    width: 635px;
+    height: 100%;
+}
+.darkblack2 h2{
+    color: white;
+    transform: translate(0px, 90px);
+
+}
+.hr{
+    height: 3px;
+    margin-top: 100px;
+    background: white;
+}
+.darkblack2 h3{
+    color: white;
+}
+.darkblack2 h3:hover{
+    color: dodgerblue;
+    cursor: pointer;
+}
+.darkblack3{
+    width: 270px;
+    height: 100%;
+}
+.darkblack3 h2{
+    color: white;
+    transform: translate(0px, 90px);
+    text-align: center;
+}

@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: black;
+}
+.back__bayroq{
+    width: 1000px;
+    height: 550px;
+    border: 1px solid black;
+    background: black;
+    margin: 0 10%;
+    position: relative;
+    overflow: hidden;
+}
+.bayroq1{
+    width: 360px;
+    height: 260px;
+    border: 30px solid #fff;
+    background: #33499f;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+}
+.bayroq2{
+    width: 100%;
+    height: 100px;
+    background: #de3832;
+    position: absolute;
+    top: 230px;
+}
+.bayroq3{
+    width: 360px;
+    height: 260px;
+    border: 30px solid #fff;
+    background: #33499f;
+    position: absolute;
+    top: 330px;
+    left: -30px;
+}
+.bayroq4{
+    width: 600px;
+    height: 260px;
+    border: 30px solid #fff;
+    background: #33499f;
+    position: absolute;
+    top: -30px;
+    left: 430px;
+}
+.bayroq5{
+    width: 100%;
+    height: 100px;
+    background: #de3832;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -119px;
+}
+.bayroq6{
+    width: 600px;
+    height: 260px;
+    border: 30px solid #fff;
+    background: #33499f;
+    position: absolute;
+    top: 330px;
+    left: 430px;
+}
+.back__uchburchak{
+    width: 800px;
+    height: 550px;
+    background: #f0cd48;
+    margin: auto;
+    margin-top: 80px;
+}
+.uchburchak1{
+    width: 400px;
+    height: 210px;
+    margin: auto;
+    transform: translate(0px, 180px);
+    overflow: hidden;
+    z-index: 10;
+}
+.romb{
+    width: 300px;
+    height: 300px;
+    background: #66284a;
+    margin: auto;
+    transform: rotate(45deg) translate(50px, 50px);
+    z-index: 9;
+}
+.uchburchak2{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #66284a;
+    transform: translate(150px, 100px);
+}
+.uchburchak3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #66284a;
+    transform: translate(325px, -260px);
+}
+.uchburchak4{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #66284a;
+    transform: translate(495px, -200px);
+}
+.back__main{
+    width: 800px;
+    height: 550px;
+    background: #f26522;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+}
+.father__main234{
+    width: 300px;
+    height: 201px;
+    position: absolute;
+    top: 185px;
+    left: 250px;
+    z-index: 10;
+}
+.main2{
+    width: 100%;
+    height: 67px;
+    background: #fcaf17;
+}
+.main3{
+    width: 100%;
+    height: 67px;
+    background: #fff33e;
+}
+.main4{
+    width: 100%;
+    height: 67px;
+    background: #fcaf17;
+}
+.main5{
+    width: 141px;
+    height: 141px;
+    background: #fff33e;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 215px;
+    left: 180px;
+}
+.main6{
+    width: 141px;
+    height: 141px;
+    background: #fcaf17;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 215px;
+    left: 480px;
+}
+.back__tetris{
+    width: 800px;
+    height: 550px;
+    background: #173889;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+}
+.tetris1{
+    width: 110px;
+    height: 110px;
+    transform: translate(200px, 300px);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.tetris__boxs{
+    width: 50px;
+    height: 50px;
+    background: #f8da37;
+}
+.tetris2{
+    width: 166px;
+    height: 50px;
+    transform: translate(200px, 308px);
+    display: flex;
+    gap: 8px;
+}
+.tetris__-boxs{
+    width: 50px;
+    height: 50px;
+    background: #ee4f63;
+}
+.tetris3{
+    width: 58px;
+    height: 50px;
+    transform: translate(200px, 316px);
+}
+.tetris___boxs{
+    width: 50px;
+    height: 50px;
+    background: #f8da37;
+}
+.tetris4{
+    width: 166px;
+    height: 50px;
+    transform: translate(258px, 266px);
+    display: flex;
+    gap: 8px;
+}
+.tetris__--boxs{
+    width: 50px;
+    height: 50px;
+    background: #2ce1ea;
+}
+.tetris5{
+    width: 58px;
+    height: 50px;
+    transform: translate(374px, 158px);
+}
+.tetriss___boxs{
+    width: 50px;
+    height: 50px;
+    background: #2ce1ea;
+}
+.tetris6{
+    width: 58px;
+    height: 50px;
+    transform: translate(316px, 50px);
+}
+.tetriss___bboxs{
+    width: 50px;
+    height: 50px;
+    background: #ee4f63;
+}
+.tetris7{
+    width: 166px;
+    height: 50px;
+    transform: translate(374px, 58px) rotate(90deg);
+    display: flex;
+    gap: 8px;
+}
+.ttetris__--boxs{
+    width: 50px;
+    height: 50px;
+    background: #b069f7;
+}
+.tetris8{
+    width: 58px;
+    height: 50px;
+    transform: translate(490px, 8px);
+}
+.teetriss___bboxs{
+    width: 50px;
+    height: 50px;
+    background: #b069f7;
+}
+.tetris9{
+    width: 58px;
+    height: 50px;
+    transform: translate(490px, 16px);
+}
+.teetriiss___bboxs{
+    width: 50px;
+    height: 50px;
+    background: #2ce1ea;
+}
+.tetris10{
+    width: 108px;
+    height: 50px;
+    transform: translate(345px, -242px) rotate(90deg);
+    display: flex;
+    gap: 8px;
+}
+.tet{
+    width: 50px;
+    height: 50px;
+    background: #ee4f63;
+}
+.tetris11{
+    width: 108px;
+    height: 50px;
+    transform: translate(403px, -350px) rotate(90deg);
+    display: flex;
+    gap: 8px;
+}
+.tett{
+    width: 50px;
+    height: 50px;
+    background: #ee4f63;
+}
+.back__gitara{
+    width: 800px;
+    height: 550px;
+    background: #f3ac3c;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+}
+.gitara1{
+    width: 220px;
+    height: 220px;
+    background: #998235;
+    border-radius: 50%;
+    transform: translate(70px, 150px);
+}
+.gtr1{
+    width: 90px;
+    height: 20px;
+    border-radius: 10px;
+    background: #1a4341;
+    transform: rotate(90deg) translate(100px, -20px);
+}
+.gitara2{
+    width: 170px;
+    height: 170px;
+    background: #998235;
+    border-radius: 50%;
+    transform: translate(200px, -40px);
+}
+.gtr2{
+    width: 100px;
+    height: 100px;
+    background: #1a4341;
+    border: 10px solid #f3ac3c;
+    border-radius: 50%;
+    transform: translate(35px, 35px);
+}
+.gitara3{
+    width: 280px;
+    height: 50px;
+    background: #1a4341;
+    position: absolute;
+    left: 365px;
+    top: 240px;
+    z-index: 1;
+}
+.gitara4{
+    width: 90px;
+    height: 70px;
+    background: #998235;
+    border-radius: 15px;
+    position: relative;
+    position: absolute;
+    top: 230px;
+    left: 640px;
+    z-index: 10;
+}
+.gtr3{
+    width: 65px;
+    height: 15px;
+    background: #1a4341;
+    border-radius: 10px;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
+.gtr4{
+    width: 65px;
+    height: 15px;
+    background: #1a4341;
+    border-radius: 10px;
+    position: absolute;
+    top: 40px;
+    left: 13px;
+}
